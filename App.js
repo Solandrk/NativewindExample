@@ -2,7 +2,6 @@ import { StatusBar } from 'expo-status-bar';
 import { ActivityIndicator, StyleSheet, Text, TextInput, View } from 'react-native';
 
 import './styles'
-import LoginScreen from './screens/LoginScreen';
 export default function App() {
   return (
     <View className='bg-black w-screen h-screen justify-center items-center'>
@@ -21,4 +20,4 @@ const styles = StyleSheet.create({
   },
 });
 
-// https://stackoverflow.com/questions/69692842/error-message-error0308010cdigital-envelope-routinesunsupported
+// $env:NODE_OPTIONS = "--openssl-legacy-provider"
